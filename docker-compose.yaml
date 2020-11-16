@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    image: skattela/xss-demo-website
+    ports:
+      - "80:80"
