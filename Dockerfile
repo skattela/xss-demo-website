@@ -1,4 +1,4 @@
-FROM python:slim-buster
+FROM python:3.11.0a6-slim-buster
 
 COPY static /static
 COPY templates /templates
